@@ -1,0 +1,355 @@
+.black {
+    background-color: black;
+}
+.nav-item {
+    margin: auto;
+
+    color: white !important;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Cormorant;
+    letter-spacing: 2px;
+}
+.nav-link {
+    color: white !important;
+}
+button.navbar-toggler {
+    background: black;
+}
+.Home {
+    font-size: 2rem;
+}
+.navImage {
+    width: 67vw;
+    filter: opacity(0.6);
+    filter: hue-rotate(20deg) brightness(70%) grayscale(30%);
+}
+
+.imgHotel {
+    width: 85vw !important;
+}
+
+.navImgCol {
+    text-align: center;
+    margin-bottom: 9vh;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='gray' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: grey;
+}
+
+.topleft {
+    position: fixed !important;
+    top: 0vh;
+    left: 16vw;
+    font-size: 4vw;
+    img {
+        width: 20vw;
+    }
+}
+//.w-40 {
+   // width: 30%;
+//}
+//ozlatiboru
+#aboutZlatibor {
+    h1 {
+        color: black;
+        font-family: VOGE;
+        font-size: 7vw;
+        padding-top: 4vh;
+    }
+    .text {
+        color: black;
+        font-size: 1rem;
+        text-align: center;
+        font-family: RobotoTI;
+        padding-bottom: 8vh;
+        letter-spacing: 2px;
+        padding-right: 8vw;
+        padding-left: 1vh;
+    }
+}
+
+//oNama
+#aboutUs {
+    h1 {
+        text-align: center;
+        color: white;
+        font-family: VOGE;
+        font-size: 7vw;
+        padding-top: 4vh;
+    }
+    .text {
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        font-family: RobotoTI;
+        padding-bottom: 8vh;
+        letter-spacing: 2px;
+        padding-right: 1vw;
+        padding-left: 8vh;
+    }
+}
+.h11 {
+    text-align: center;
+    color: black;
+    font-family: VOGE;
+    font-size: 7vw;
+    padding-top: 4vh;
+}
+.cardRow {
+    margin-top: 11vh;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+//pocetak
+.pictureSection {
+    background: black;
+}
+.bg-dark {
+    background: black !important;
+}
+.navLogo {
+    width: 17vw;
+}
+.d-flex {
+    padding-top: 1vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 1vh;
+}
+.cont {
+    padding-bottom: 9vh;
+
+    p {
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: RobotoTI;
+        padding-bottom: 8vh;
+        letter-spacing: 2px;
+    }
+}
+
+.card-header {
+    margin: auto;
+    margin-top: -7vh;
+    border-radius: 14px;
+    background: black !important;
+    width: 13rem;
+    height: 7rem;
+    box-shadow: 1px 5px 15px;
+    .icon {
+        filter: invert(1);
+        margin: auto;
+        width: 6rem;
+    }
+}
+.card {
+    background: white !important;
+
+    border: 2px solid black;
+    border-radius: 14px;
+}
+.card:hover {
+    box-shadow: 1px 5px 15px;
+}
+.colCard {
+    margin-bottom: 10vh;
+}
+.card-title {
+    font-family: RobotoTI;
+}
+.card-body {
+    font-family: RobotoTI;
+}
+
+//gallery
+.gallery {
+    background: black;
+    padding-bottom: 8vh;
+    .btn {
+        font-family: RobotoTI;
+        i {
+            opacity: 70%;
+        }
+    }
+    .caruselCont {
+        // padding:11vw;
+        width: 70%;
+        height: 70%;
+    }
+    .containerText {
+        padding-right: 7vw;
+        padding-left: 7vw;
+        .text {
+            color: white;
+            font-size: 1rem;
+            text-align: center;
+            font-family: RobotoTI;
+            padding-bottom: 8vh;
+            letter-spacing: 2px;
+        }
+    }
+    h1 {
+        font-family: VOGE;
+        color: white;
+        font-size: 7vw;
+        padding-top: 4vh;
+    }
+}
+.caroImg {
+    filter: brightness(60%);
+}
+
+.imgAboutZl {
+    padding: 2px;
+    border: 6px solid black;
+}
+.imgAboutUs {
+    padding: 2px;
+    border: 6px solid white;
+}
+
+#seeYou {
+    text-align: center;
+    h1 {
+        font-family: RobotoTI;
+        color: black;
+        font-size: 7vw;
+        padding-top: 4vh;
+    }
+    p {
+        color: black;
+        font-size: 3rem;
+        text-align: center;
+        font-family: RobotoTI;
+        padding-bottom: 8vh;
+        letter-spacing: 2px;
+    }
+}
+
+footer {
+    p {
+        font-family: RobotoTI;
+        letter-spacing: 2px;
+    }
+    .container {
+        border-top: 0.1px solid white;
+    }
+
+    .contact {
+        border-top: none;
+        text-align: left;
+        .keepin {
+            font-family: RobotoTI;
+            font-size: 2rem;
+
+            letter-spacing: 2px;
+            padding-top: 2vh;
+        }
+    }
+    .logoContact {
+        padding-top: 10vh;
+    }
+    .icons {
+        border-bottom: 1px solid white;
+        padding-bottom: 2vh;
+        .bi {
+            font-size: 1.5rem;
+            padding-right: 19px;
+        }
+    }
+    .lead,
+    .circle {
+        padding-top: 2vh;
+    }
+}
+.imgHotel1{
+    display:none;
+}
+@media only screen and (max-width: 768px) {
+    .imgHotel{
+        display:none;
+
+    }
+    .pictureSection{
+        padding-top: 14vh;
+        padding-top: 7vh;
+        p{
+            font-size: 6vw;
+        }
+    }
+    .navLogo{
+        display:none;
+    }
+    .imgHotel1{
+        display:block;
+        width: 85vw;
+    }
+    
+    #aboutZlatibor{
+     h1{
+         text-align: center;
+         font-size: 13vw;
+     }
+     .text{
+         text-align: justify;
+         padding-left: 0;
+         padding-right: 0;
+     }
+    }
+
+    #aboutUs{
+        h1{
+            text-align: center;
+            font-size: 13vw;
+        }
+        .text{
+            text-align: justify;
+            padding-left: 0;
+            padding-right: 0;
+        }
+       }
+
+       #services{
+           .h11{
+               font-size: 13vw;
+           }
+       }
+
+       #rooms{
+           h1{
+               font-size: 13vw;
+           }
+           .text{
+            text-align: justify;
+            padding-left: 0;
+            padding-right: 0;
+           }
+           .caruselCont{
+               display: none;
+           }
+       }
+       #seeYou{
+           p{
+               font-size: 11vw;
+           }
+       }
+
+
+    footer{
+        text-align: center;
+        .logoContact{
+            img{
+            display: none;}
+        }
+    }
+}

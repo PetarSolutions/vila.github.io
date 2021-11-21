@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@font-face {
+    font-family:Cormorant;
+    src: url(../src/assets/fonts/Cormorant-Bold.ttf) format("opentype");
+  }
+  @font-face {
+    font-family:ScheherezadaB;
+    src: url(../src/assets/fonts/ScheherazadeNew-Bold.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family:RobotoTI;
+    src: url(../src/assets/fonts/new/Roboto-ThinItalic.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family:VOGE;
+    src: url(../src/assets/fonts/new/Vogue.ttf) format("opentype");
+  }
